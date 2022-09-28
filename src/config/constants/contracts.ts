@@ -16,7 +16,7 @@ export default {
   },
   lotteryV2: {
     97: '0x5790c3534F30437641541a0FA04C992799602998',
-    56: '0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c',
+    56: '0x351e652fa9bdf6f5825e04d98bdc6bb805e87f72',
   },
   multiCall: multicallAddresses,
   pancakeProfile: {
