@@ -333,10 +333,10 @@ const Pools: React.FC<React.PropsWithChildren> = () => {
         {showFinishedPools && (
           <FinishedTextContainer>
             <Text fontSize={['16px', null, '20px']} color="failure" pr="4px">
-              {t('Looking for v1 CAKE syrup pools?')}
+              {t('')}
             </Text>
-            <FinishedTextLink href="/migration" fontSize={['16px', null, '20px']} color="failure">
-              {t('Go to migration page')}.
+            <FinishedTextLink href="" fontSize={['16px', null, '20px']} color="failure">
+              {t('')}.
             </FinishedTextLink>
           </FinishedTextContainer>
         )}
