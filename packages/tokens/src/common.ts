@@ -2,11 +2,12 @@ import { ChainId, Token } from '@pancakeswap/sdk'
 
 export const CAKE_MAINNET = new Token(
   ChainId.BSC,
-  '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
+  '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
+  // 0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82
   18,
-  'CAKE',
-  'PancakeSwap Token',
-  'https://pancakeswap.finance/',
+  'SIREN',
+  'Sirens Treasure Token',
+  'https://google.com/',
 )
 
 export const CAKE_TESTNET = new Token(
