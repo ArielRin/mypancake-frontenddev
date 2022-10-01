@@ -16,7 +16,7 @@ const farms: SerializedFarmConfig[] = [
   },
   {
     pid: 2,
-    v1pid: 251,
+    v1pid: 2,
     lpSymbol: 'SIREN-BNB LP',
     lpAddress: CAKE_BNB_LP_MAINNET,
     token: bscTokens.cake,
@@ -24,11 +24,21 @@ const farms: SerializedFarmConfig[] = [
     boosted: false,
   },
   {
-    pid: 39,
+    pid: 1,
+    v1pid: 1,
     lpSymbol: 'SIREN-BUSD LP',
     lpAddress: '0xc8c69dDF25F1c1d999e04e449d3bF29339380210',
     boosted: false,
     token: bscTokens.cake,
+    quoteToken: bscTokens.busd,
+  },
+  {
+    pid: 3,
+    v1pid: 3,
+    lpSymbol: 'BNB-BUSD LP',
+    lpAddress: '0x0a7B738Eecbe53De91D3D46F2F9568ccDbcfA3cC',
+    boosted: false,
+    token: bscTokens.wbnb,
     quoteToken: bscTokens.busd,
   },
   // {
@@ -40,14 +50,14 @@ const farms: SerializedFarmConfig[] = [
   //   quoteToken: bscTokens.usdt,
   //   boosted: true,
   // },
-  {
-    pid: 3,
-    v1pid: 252,
-    lpSymbol: 'BUSD-BNB LP',
-    lpAddress: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
-    token: bscTokens.busd,
-    quoteToken: bscTokens.wbnb,
-  },
+  // {
+  //   pid: 3,
+  //   v1pid: 252,
+  //   lpSymbol: 'BUSD-BNB LP',
+  //   lpAddress: '0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16',
+  //   token: bscTokens.busd,
+  //   quoteToken: bscTokens.wbnb,
+  // },
   //    * V3 by order of release (some may be out of PID order due to multiplier boost)
   // {
   //   pid: 121,
