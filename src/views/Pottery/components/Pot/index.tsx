@@ -102,8 +102,8 @@ const Pot: React.FC<React.PropsWithChildren> = () => {
               <PotTab onItemClick={handleClick} activeIndex={activeTab} />
               <Box>
                 <CardHeader
-                  title={t('Pottery')}
-                  subTitle={t('Stake CAKE, Earn CAKE, Win CAKE')}
+                  title={t(' ')}
+                  subTitle={t(' ')}
                   primarySrc="/images/tokens/0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76.svg"
                   secondarySrc="/images/tokens/pot-icon.svg"
                 />

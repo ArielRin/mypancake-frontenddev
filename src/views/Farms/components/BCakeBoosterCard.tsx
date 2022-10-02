@@ -7,7 +7,7 @@ import {
   Flex,
   HelpIcon,
   Link,
-  RocketIcon,
+  // RocketIcon,
   Text,
   useTooltip,
   useMatchBreakpoints,
@@ -104,9 +104,9 @@ export const BCakeBoosterCard = () => {
       </ImageWrapper>
       <Card p="0px" style={{ zIndex: 1 }}>
         <StyledCardBody style={{ padding: '15px 24px' }}>
-          <RocketIcon />
+
           <Text fontSize={22} bold color="text" marginBottom="-12px" display="inline-block" ml="7px">
-            {t('Yield Booster')}
+            {t('APR Enhancer')}
           </Text>
           {tooltipVisible && tooltip}
           <Box ref={targetRef} style={{ float: 'right', position: 'relative', top: '6px' }}>
@@ -133,10 +133,10 @@ const CardContent: React.FC = () => {
     return (
       <Box>
         <Text color="textSubtle" fontSize={12} bold>
-          {t('Connect wallet to view booster')}
+          {t('Connect wallet to show Treasure Locks')}
         </Text>
         <Text color="textSubtle" fontSize={12} mb="16px">
-          {t('An active fixed-term CAKE staking position is required for activating farm yield boosters.')}
+          {t('An active fixed-term Siren staking position is required for activating farm yield boosters.')}
         </Text>
         <ConnectWalletButton width="100%" style={{ backgroundColor: theme.colors.textSubtle }} />
       </Box>
@@ -145,14 +145,14 @@ const CardContent: React.FC = () => {
     return (
       <Box width="100%">
         <Text color="textSubtle" fontSize={12} bold>
-          {t('No CAKE locked')}
+          {t('No SIREN locked')}
         </Text>
         <Text color="textSubtle" fontSize={12} mb="16px">
-          {t('An active fixed-term CAKE staking position is required for activating farm yield boosters.')}
+          {t('An active fixed-term Siren staking position is required for activating increased Intrest.')}
         </Text>
         <NextLink href="/pools" passHref>
           <Button as="a" width="100%" style={{ backgroundColor: theme.colors.textSubtle }}>
-            {t('Go to Pool')}
+            {t('Go to the Grotto')}
           </Button>
         </NextLink>
       </Box>
@@ -164,11 +164,11 @@ const CardContent: React.FC = () => {
           {t('Locked staking is ended')}
         </Text>
         <Text color="textSubtle" fontSize={12} mb="16px">
-          {t('An active fixed-term CAKE staking position is required for activating farm yield boosters.')}
+          {t('An active fixed-term Siren staking position is required for activating increased Intrest.')}
         </Text>
         <NextLink href="/pools" passHref>
           <Button as="a" width="100%" style={{ backgroundColor: theme.colors.textSubtle }}>
-            {t('Go to Pool')}
+            {t('Go to the Grotto')}
           </Button>
         </NextLink>
       </Box>
@@ -177,10 +177,10 @@ const CardContent: React.FC = () => {
     return (
       <Box>
         <Text color="textSubtle" fontSize={12} bold>
-          {t('Available Yield Booster')}
+          {t('Better Returns')}
         </Text>
         <Text color="textSubtle" fontSize={12} mb="16px">
-          {t('A one-time setup is required for enabling farm yield boosters.')}
+          {t('A one-time setup is required for enabling farm yield.')}
         </Text>
         <CreateProxyButton onDone={refreshProxyAddress} style={{ backgroundColor: theme.colors.textSubtle }} />
       </Box>
