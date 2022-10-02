@@ -89,7 +89,7 @@ const Lottery = () => {
         >
           <Flex width="100%" flexDirection="column" alignItems="center" justifyContent="center">
             <Heading mb="24px" scale="xl">
-              {t('Finished Rounds')}
+              {t('Ended Rounds')}
             </Heading>
             <Box mb="24px">
               <HistoryTabMenu

@@ -50,7 +50,6 @@ export const vaultPoolConfig = {
   //     primarySrc: `/images/tokens/${bscTokens.cake.address}.svg`,
   //     secondarySrc: `/images/tokens/ifo-pool-icon.svg`,
   //   },
-
 } as const
 
 export const livePools: SerializedPoolConfig[] = [
@@ -60,13 +59,13 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: bscTokens.cake,
     contractAddress: {
       97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
-      56: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
+      56: '0x1eC89DC2aAF23f86534535f0c87efff3C3887Eb0',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',
     isFinished: false,
   },
-  // {     SIREN 0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76
+  // {     SIREN 0x1eC89DC2aAF23f86534535f0c87efff3C3887Eb0
   //   sousId: 298,
   //   stakingToken: bscTokens.cake,
   //   earningToken: bscTokens.hoop,

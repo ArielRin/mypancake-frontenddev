@@ -39,7 +39,7 @@ const FarmTabButtons: React.FC<React.PropsWithChildren<FarmTabButtonsProps>> = (
         </ButtonMenuItem>
         <NotificationDot show={hasStakeInFinishedFarms}>
           <ButtonMenuItem as={NextLinkFromReactRouter} to="/farms/history" id="finished-farms-button">
-            {t('Finished')}
+            {t('Ended')}
           </ButtonMenuItem>
         </NotificationDot>
       </ButtonMenu>

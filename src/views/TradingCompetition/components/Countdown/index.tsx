@@ -83,7 +83,7 @@ const Countdown: React.FC<
     if (hasCompetitionEnded) {
       return (
         <StyledHeading background={theme.colors.gradientGold} $fill>
-          {t('Finished')}!
+          {t('Ended')}!
         </StyledHeading>
       )
     }

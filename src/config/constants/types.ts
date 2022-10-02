@@ -172,7 +172,7 @@ export enum AuctionStatus {
   ToBeAnnounced, // No specific dates/blocks to display
   Pending, // Auction is scheduled but not live yet (i.e. waiting for startBlock)
   Open, // Auction is open for bids
-  Finished, // Auction end block is reached, bidding is not possible
+  Ended, // Auction end block is reached, bidding is not possible
   Closed, // Auction was closed in smart contract
 }
 

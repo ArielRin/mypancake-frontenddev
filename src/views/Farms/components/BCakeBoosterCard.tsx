@@ -105,7 +105,7 @@ export const BCakeBoosterCard = () => {
       <Card p="0px" style={{ zIndex: 1 }}>
         <StyledCardBody style={{ padding: '15px 24px' }}>
           <Text fontSize={22} bold color="text" marginBottom="-12px" display="inline-block" ml="7px">
-            {t('More APR')}
+            {t('Turbo APR')}
           </Text>
           {tooltipVisible && tooltip}
           <Box ref={targetRef} style={{ float: 'right', position: 'relative', top: '6px' }}>

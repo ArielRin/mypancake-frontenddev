@@ -32,12 +32,12 @@ const AuctionRibbon: React.FC<React.PropsWithChildren<{ auction: Auction; noAuct
   const { t } = useTranslation()
   const { status } = auction
 
-  // Don't show Live or Finished in case of fresh contract with no history
+  // Don't show Live or Ended in case of fresh contract with no history
   if (noAuctionHistory) {
     return null
   }
 
-  let ribbonText = t('Finished')
+  let ribbonText = t('Ended')
   let color = 'textDisabled'
   if (status === AuctionStatus.Open) {
     ribbonText = `${t('Live')}!`

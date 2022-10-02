@@ -33,7 +33,7 @@ const FinishedRounds: React.FC<React.PropsWithChildren> = () => {
       <ConvexTop clipFill={{ light: COVEX_BG, dark: COVEX_BG }} />
       <FinishedRoundsContainer>
         <OutlineText fontSize="40px" mb="32px" bold textAlign="center">
-          {t('Finished Rounds')}
+          {t('Ended Rounds')}
         </OutlineText>
         <AllHistoryCard />
       </FinishedRoundsContainer>

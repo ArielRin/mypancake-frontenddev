@@ -23,7 +23,7 @@ const AuctionTimer: React.FC<React.PropsWithChildren<{ auction: Auction }>> = ({
   if (auction.status === AuctionStatus.ToBeAnnounced || auction.status === AuctionStatus.Closed) {
     return null
   }
-  if (auction.status === AuctionStatus.Finished) {
+  if (auction.status === AuctionStatus.Ended) {
     return (
       <Flex justifyContent="center" alignItems="center" mb="48px">
         <Text bold>{t('Closing')}...</Text>

@@ -35,7 +35,9 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         eventStatus: [SaleStatusEnum.Pending, SaleStatusEnum.Premint],
       }),
       title: t('Activate your profile'),
-      bodyText: [t('You’ll need an active SirensTreasure Profile to buy Minting Tickets and mint a Pancake Squad NFT!')],
+      bodyText: [
+        t('You’ll need an active SirensTreasure Profile to buy Minting Tickets and mint a Pancake Squad NFT!'),
+      ],
       buttons: (
         <>
           <ActivateProfileButton userStatus={userStatus} t={t} />
@@ -56,7 +58,7 @@ const stepsConfigBuilder = ({ t, userInfos, eventInfos, userStatus, account, the
         <>
           <Button
             as="a"
-            href="https://pancakeswap.finance/swap?outputCurrency=0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76&chainId=56"
+            href="https://pancakeswap.finance/swap?outputCurrency=0x1eC89DC2aAF23f86534535f0c87efff3C3887Eb0&chainId=56"
             target="_blank"
             width="100%"
           >

@@ -6,7 +6,7 @@ import { useTranslation } from '@pancakeswap/localization'
 
 export enum SwapType {
   SWAP,
-  STABLE_SWAP,
+  // STABLE_SWAP,
 }
 
 const Wrapper = styled.div`
@@ -38,7 +38,7 @@ export default function SwapTab({ children, showStable }) {
             activeIndex={swapTypeState}
             onItemClick={() => setSwapType((state) => (state === SwapType.SWAP ? SwapType.STABLE_SWAP : SwapType.SWAP))}
           >
-            {[t('Swap'), t('StableSwap')].map((content, idx) => (
+            {[t('Swap'), t('Soon')].map((content, idx) => (
               <ButtonMenuItem
                 key={content}
                 style={{

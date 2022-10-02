@@ -26,7 +26,7 @@ const PoolCard: React.FC<React.PropsWithChildren<{ pool: DeserializedPool; accou
   return (
     <StyledCard
       isFinished={isFinished && sousId !== 0}
-      ribbon={isFinished && <CardRibbon variantColor="textDisabled" text={t('Finished')} />}
+      ribbon={isFinished && <CardRibbon variantColor="textDisabled" text={t('Ended')} />}
     >
       <PoolCardHeader isStaking={accountHasStakedBalance} isFinished={isFinished && sousId !== 0}>
         <PoolCardHeaderTitle

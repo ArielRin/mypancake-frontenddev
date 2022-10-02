@@ -366,7 +366,7 @@ const Farms: React.FC<React.PropsWithChildren> = ({ children }) => {
                 onChange={() => setBoostedOnly((prev) => !prev)}
                 scale="sm"
               />
-              <Text> {t('Booster Available')}</Text>
+              <Text> {t('Turbo you Treasure!')}</Text>
             </ToggleWrapper>
             <FarmTabButtons hasStakeInFinishedFarms={stakedInactiveFarms.length > 0} />
           </ViewControls>

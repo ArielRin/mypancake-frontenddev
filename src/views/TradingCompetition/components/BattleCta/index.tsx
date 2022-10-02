@@ -105,7 +105,7 @@ const BattleCta: React.FC<React.PropsWithChildren<CompetitionProps>> = ({
     }
     // All competition finished states
     if (hasCompetitionEnded) {
-      return `${t('Finished')}!`
+      return `${t('Ended')}!`
     }
     // Competition not started
     return t('Starting Soon')

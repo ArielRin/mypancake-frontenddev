@@ -22,7 +22,7 @@ export const IfoPageLayout = ({ children }) => {
             href: '/ifo',
           },
           {
-            label: t('Finished'),
+            label: t('Ended'),
             href: '/ifo/history',
           },
         ]}

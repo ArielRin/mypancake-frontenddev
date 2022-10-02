@@ -100,7 +100,7 @@ const BoostedAction: React.FunctionComponent<BoostedActionPropsType> = ({
             onClick={handlers.activate}
             title={`${boostMultiplierDisplay}x`}
             isLoading={isConfirming}
-            description={t('Yield booster available')}
+            description={t('YieldTurbo APR')}
             endIcon={isConfirming && <AutoRenewIcon spin color="currentColor" />}
           >
             {t('Boost')}

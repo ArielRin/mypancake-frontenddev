@@ -68,7 +68,7 @@ const PoolTabButtons = ({ stakedOnly, setStakedOnly, hasStakeInFinishedPools, vi
         </ButtonMenuItem>
         <NotificationDot show={hasStakeInFinishedPools}>
           <ButtonMenuItem id="finished-pools-button" as={NextLinkFromReactRouter} to="/pools/history" replace>
-            {t('Finished')}
+            {t('Ended')}
           </ButtonMenuItem>
         </NotificationDot>
       </ButtonMenu>

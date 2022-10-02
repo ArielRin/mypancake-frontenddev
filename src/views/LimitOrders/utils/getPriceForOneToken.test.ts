@@ -1,7 +1,7 @@
 import { JSBI, Token, CurrencyAmount } from '@pancakeswap/sdk'
 import getPriceForOneToken from './getPriceForOneToken'
 
-const CAKE = new Token(56, '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76', 18, 'CAKE', 'SirensTreasure Token')
+const CAKE = new Token(56, '0x1eC89DC2aAF23f86534535f0c87efff3C3887Eb0', 18, 'CAKE', 'SirensTreasure Token')
 const BUSD = new Token(56, '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56', 18, 'BUSD', 'Binance USD')
 const DOGE = new Token(56, '0xbA2aE424d960c26247Dd6c32edC70B295c744C43', 8, 'DOGE', 'Binance-Peg Dogecoin')
 

@@ -84,7 +84,7 @@ const IfoRibbonEnd = () => {
       <BigCurve $status="finished" />
       <Box position="relative">
         <Heading as="h3" scale="lg" color="textSubtle">
-          {t('Sale Finished!')}
+          {t('Sale Ended!')}
         </Heading>
       </Box>
     </>

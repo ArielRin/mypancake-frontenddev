@@ -54,7 +54,7 @@ export const sortAuctionBidders = (bidders: BidsPerAuction[], auction?: Auction)
 // - Live and biddable
 // - Has been scheduled for specific future date
 // - Not announced yet
-// - Recently Finished/Closed
+// - Recently Ended/Closed
 const getAuctionStatus = (
   currentBlock: number,
   startBlock: number,
@@ -68,7 +68,7 @@ const getAuctionStatus = (
     return AuctionStatus.Closed
   }
   if (currentBlock >= endBlock) {
-    return AuctionStatus.Finished
+    return AuctionStatus.Ended
   }
   if (contractStatus === FarmAuctionContractStatus.Open && currentBlock < startBlock) {
     return AuctionStatus.Pending
