@@ -17,7 +17,7 @@ const config = [
         no participation fee.
       </Trans>,
       <Trans>
-        In the Public Sale, everyone with an active SirensTreasure profile can commit. However the maximum amount of CAKE
+        In the Public Sale, everyone with an active PancakeSwap profile can commit. However the maximum amount of CAKE
         users can commit, is equal to the number of iCAKE they have.
       </Trans>,
       <>
@@ -37,7 +37,7 @@ const config = [
         We recommend you to check if you are eligible to participate in the Private Sale first. In the Public Sale, if
         the amount you commit is too small, you may not receive a meaningful amount of IFO tokens.
       </Trans>,
-      <Trans>Just remember you need an active SirensTreasure Profile in order to participate.</Trans>,
+      <Trans>Just remember you need an active PancakeSwap Profile in order to participate.</Trans>,
     ],
   },
   {
@@ -66,6 +66,25 @@ const config = [
         You can contribute to one or both, it doesn’t matter: only your overall contribution is counted for the
         achievement.
       </Trans>,
+    ],
+  },
+  {
+    title: <Trans>What is the difference between an IFO and a cIFO?</Trans>,
+    description: [
+      <Trans>
+        cIFOs are a new subtype of IFOs, designed to reward our loyal community, and also introduce our community to
+        projects with slightly smaller raises.
+      </Trans>,
+      <>
+        <Trans>Learn more about cIFO</Trans>
+        <InlineLink
+          ml="4px"
+          external
+          href="https://medium.com/pancakeswap/community-initial-farm-offering-cifo-the-new-ifo-subtype-ac1abacf66be"
+        >
+          <Trans>here</Trans>
+        </InlineLink>
+      </>,
     ],
   },
 ]

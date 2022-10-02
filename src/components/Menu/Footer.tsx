@@ -48,19 +48,19 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
     <Wrapper $isSide={isSide}>
       <Flex flexDirection={isSide ? 'column' : ['column', 'column', 'row']} alignItems="center">
         <ButtonMenu variant="subtle" scale="sm" activeIndex={0}>
-          <ButtonMenuItem>Latest</ButtonMenuItem>
-          <ButtonMenuItem as="a" href="hilarious-manatee-26ef5a.netlify.app//#/">
-            {t('First Dapp')}
+          <ButtonMenuItem>V2</ButtonMenuItem>
+          <ButtonMenuItem as="a" href="https://v1exchange.pancakeswap.finance/#/">
+            {t('V1 (old)')}
           </ButtonMenuItem>
         </ButtonMenu>
         <LinkExternal
           id="ercBridge"
-          href="https://ariel-rin.gitbook.io/mermaidblockchain/"
+          href="https://docs.binance.org/smart-chain/guides/cross-chain.html"
           ml={[0, 0, '40px']}
           mt={['20px', '20px', isSide ? '20px' : 0]}
           mb={['8px', '8px', 0]}
         >
-          {t('')}
+          {t('Convert ERC-20 to BEP-20')}
         </LinkExternal>
       </Flex>
       {isSide && <Flex flexGrow={1} />}
@@ -72,13 +72,13 @@ const Footer: React.FC<React.PropsWithChildren<{ variant?: FooterVariant; helpUr
       >
         <BubbleWrapper>
           <Button id="clickExchangeHelp" as="a" external href={helpUrl} variant="subtle">
-            {t('More Information ?')}
+            {t('Need help ?')}
           </Button>
           <Svg viewBox="0 0 16 16">
             <path d="M0 16V0C0 0 3 1 6 1C9 1 16 -2 16 3.5C16 10.5 7.5 16 0 16Z" />
           </Svg>
         </BubbleWrapper>
-        <Image src="/images/help.png" alt="Docs" width={160} height={108} />
+        <Image src="/images/help.png" alt="Get some help" width={160} height={108} />
       </Flex>
     </Wrapper>
   )

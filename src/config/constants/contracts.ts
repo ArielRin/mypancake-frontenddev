@@ -3,13 +3,12 @@ import { multicallAddresses } from '@pancakeswap/multicall'
 export default {
   masterChef: {
     97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
-    // 56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
-    56: '0x52e6Ba5EC805a02BdfdD6402eF9AbA0f28d9f7da',
+    56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
     5: '0x8CB958bBdb45597cc918147469eb650A9397aBDA',
   },
   masterChefV1: {
     97: '0x1d32c2945C8FDCBc7156c553B7cEa4325a17f4f9',
-    56: '0x9fa6Bf3007e623b8C66e063a4fD13CD7320ed7aF',
+    56: '0x73feaa1eE314F8c655E354234017bE2193C9E24E',
   },
   sousChef: {
     97: '0xd3af5fe61dbaf8f73149bfcfa9fb653ff096029a',
@@ -17,7 +16,7 @@ export default {
   },
   lotteryV2: {
     97: '0x5790c3534F30437641541a0FA04C992799602998',
-    56: '0x351e652fa9bdf6f5825e04d98bdc6bb805e87f72',
+    56: '0x5aF6D33DE2ccEC94efb1bDF8f92Bd58085432d2c',
   },
   multiCall: multicallAddresses,
   pancakeProfile: {
@@ -73,7 +72,7 @@ export default {
     97: '',
   },
   predictionsBNB: {
-    56: '0x0379b2dc72D37CC86E399e5F00D20377B92a2A5a',
+    56: '0x18B2A687610328590Bc8F2e5fEdDe3b582A49cdA',
     97: '',
   },
   predictionsCAKE: {
