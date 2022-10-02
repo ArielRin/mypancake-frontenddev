@@ -100,13 +100,12 @@ export const BCakeBoosterCard = () => {
   return (
     <CardWrapper>
       <ImageWrapper>
-        <Image src={boosterCardImage} alt="boosterCardImage" width={99} height={191} placeholder="blur" />
+        <Image src={boosterCardImage} alt="boosterCardImage" width={1} height={1} placeholder="blur" />
       </ImageWrapper>
       <Card p="0px" style={{ zIndex: 1 }}>
         <StyledCardBody style={{ padding: '15px 24px' }}>
-
           <Text fontSize={22} bold color="text" marginBottom="-12px" display="inline-block" ml="7px">
-            {t('APR Enhancer')}
+            {t('More APR')}
           </Text>
           {tooltipVisible && tooltip}
           <Box ref={targetRef} style={{ float: 'right', position: 'relative', top: '6px' }}>
