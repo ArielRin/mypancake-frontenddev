@@ -41,16 +41,16 @@ export const vaultPoolConfig = {
       secondarySrc: '/images/tokens/autorenew.svg',
     },
   },
-  [VaultKey.IfoPool]: {
-    name: 'IFO CAKE',
-    description: <Trans>Stake CAKE to participate in IFOs</Trans>,
-    autoCompoundFrequency: 1,
-    gasLimit: 500000,
-    tokenImage: {
-      primarySrc: `/images/tokens/${bscTokens.cake.address}.svg`,
-      secondarySrc: `/images/tokens/ifo-pool-icon.svg`,
-    },
-  },
+  // [VaultKey.IfoPool]: {
+  //   name: 'IFO CAKE',
+  //   description: <Trans>Stake CAKE to participate in IFOs</Trans>,
+  //   autoCompoundFrequency: 1,
+  //   gasLimit: 500000,
+  //   tokenImage: {
+  //     primarySrc: `/images/tokens/${bscTokens.cake.address}.svg`,
+  //     secondarySrc: `/images/tokens/ifo-pool-icon.svg`,
+  //   },
+
 } as const
 
 export const livePools: SerializedPoolConfig[] = [
@@ -60,7 +60,7 @@ export const livePools: SerializedPoolConfig[] = [
     earningToken: bscTokens.cake,
     contractAddress: {
       97: '0xB4A466911556e39210a6bB2FaECBB59E4eB7E43d',
-      56: '0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652',
+      56: '0xA10Fe7C361B7445348c9b37B1F2F25fc9ED73C76',
     },
     poolCategory: PoolCategory.CORE,
     tokenPerBlock: '10',

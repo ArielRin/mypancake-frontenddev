@@ -15,7 +15,7 @@ export const CAKE_TESTNET = new Token(
   '0xFa60D973F7642B748046464e165A65B7323b0DEE',
   18,
   'CAKE',
-  'PancakeSwap Token',
+  'SirensTreasure Token',
   'https://pancakeswap.finance/',
 )
 
