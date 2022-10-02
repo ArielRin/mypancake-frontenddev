@@ -203,7 +203,7 @@ export const bscTokens = {
   ),
   syrup: new Token(
     ChainId.BSC,
-    '0x009cF7bC57584b7998236eff51b98A168DceA9B0',
+    '0x11C99000B2C260496019F3E599Af9f29304794Be',
     18,
     'SYRUP',
     'SyrupBar Token',

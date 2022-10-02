@@ -7,7 +7,7 @@ const farms: SerializedFarmConfig[] = [
    * These 3 farms (PID 0, 2, 3) should always be at the top of the file.
    */
   {
-    pid: 0,
+    // pid: 0,
     v1pid: 0,
     lpSymbol: 'SIREN',
     lpAddress: '0x1eC89DC2aAF23f86534535f0c87efff3C3887Eb0',
@@ -15,8 +15,8 @@ const farms: SerializedFarmConfig[] = [
     quoteToken: bscTokens.wbnb,
   },
   {
-    pid: 0,
-    v1pid: 2,
+    // pid: 0,
+    v1pid: 1,
     lpSymbol: 'SIREN-BNB LP',
     lpAddress: CAKE_BNB_LP_MAINNET,
     token: bscTokens.cake,
@@ -24,19 +24,19 @@ const farms: SerializedFarmConfig[] = [
     boosted: false,
   },
   {
-    pid: 1,
-    v1pid: 1,
+    // pid: 1,
+    v1pid: 2,
     lpSymbol: 'SIREN-BUSD LP',
-    lpAddress: '0xc8c69dDF25F1c1d999e04e449d3bF29339380210',
+    lpAddress: '0x7A06876C520875de004305cA6Ca8330b2b0C366D',
     boosted: false,
     token: bscTokens.cake,
     quoteToken: bscTokens.busd,
   },
   {
-    pid: 3,
+    // pid: 3,
     v1pid: 3,
     lpSymbol: 'BNB-BUSD LP',
-    lpAddress: '0x0a7B738Eecbe53De91D3D46F2F9568ccDbcfA3cC',
+    lpAddress: '0x7b8679E808feFf38F20e8C59aab346EBA3A334cF',
     boosted: false,
     token: bscTokens.wbnb,
     quoteToken: bscTokens.busd,
