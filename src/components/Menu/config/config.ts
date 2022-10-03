@@ -104,14 +104,14 @@ const config: (
       image: '/images/decorations/pe2.png',
       supportChainIds: SUPPORT_ONLY_BSC,
       items: [
-        {
-          label: t('Farms'),
-          href: '/farms',
-        },
-        {
-          label: t('Pools'),
-          href: '/pools',
-        },
+        // {
+        //   label: t('Farms'),
+        //   href: '/farms',
+        // },
+        // {
+        //   label: t('Pools'),
+        //   href: '/pools',
+        // },
       ].map((item) => addMenuItemSupported(item, chainId)),
     },
     // {
@@ -167,7 +167,7 @@ const config: (
     // //   ],
     // // },
     {
-      label: '',
+      label: 'Analytics',
       href: '/info',
       icon: MoreIcon,
       hideSubNav: true,
